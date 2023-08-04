@@ -1,0 +1,24 @@
+@mixin galeria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+
+.imagenGaleria {
+  @include galeria;
+
+  &:hover {
+    filter: grayscale(0%);
+    transform: scale(0.93);
+  }
+}
+
+.galeria {
+  @media (max-width: 768px) {
+    max-width: 330px;
+    margin: 0 auto; // Centrar horizontalmente
+  }
+}

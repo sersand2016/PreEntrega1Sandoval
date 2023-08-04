@@ -1,0 +1,15 @@
+.logo {
+    width: 150px;
+}
+
+.colorFondo {
+    background-color: $background-color_1;
+}
+
+.btnPropio {
+    background-color: $background-color_2;
+
+    &:hover {
+        background-color: $background-color_3;
+    }
+}

@@ -1,0 +1,17 @@
+
+  .video-container {
+    max-width: 580px; // Ancho máximo
+    margin: 0 auto; // Centrar horizontalmente
+  
+    iframe {
+      width: 100%;
+      height: 360px;
+    }
+    
+    @media (max-width: 767px) {
+      max-width: 90%;
+      iframe {
+        height: 240px;
+      }
+    }
+  }
