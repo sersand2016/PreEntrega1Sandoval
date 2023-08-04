@@ -1,5 +1,5 @@
 /* 
-Este algoritmo muestra un menú con las opciones disponibles en JANO 3D, y permite al usuario elegir una opción y realizar una acción. Las opciones son: 1) Ver los modelos disponibles, 2) Solicitar una impresión personalizada, 3) Salir del programa. El algoritmo usa un condicional para calcular el precio según el material y un ciclo para repetir el menú hasta que el usuario quiera salir
+Este algoritmo muestra un menú con las opciones disponibles en Jano 3D, y permite al usuario elegir una opción y realizar una acción. Las opciones son: 1) Ver los modelos disponibles, 2) Solicitar una impresión personalizada, 3) Salir del programa. El algoritmo usa un condicional para calcular el precio según el material y un ciclo para repetir el menú hasta que el usuario quiera salir
 */
 
 
